@@ -112,7 +112,7 @@ math::Vec2d VehicleStateProvider::EstimateFuturePosition(const double t) const {
 
 2. 计算t时刻以后车辆的状态(世界系坐标)
 
-![img](https://github.com/YannZyl/Apollo-Note/blob/master/images/planning/future_estimation.png)
+![img](../../images/planning/future_estimation.png)
 
 ```c++
 /// file in apollo/modules/common/vehicle_state/vehicle_state_provider.cc

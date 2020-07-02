@@ -4,7 +4,7 @@
 
 ## <a name="软件结构图">软件结构图</a>
 
-![img](https://github.com/YannZyl/Apollo-Note/blob/master/images/Apollo_3_0_Software_Arch.png)
+![img](../images/Apollo_3_0_Software_Arch.png)
 
 上图每个模块都以独立的ROS node运行，相互之间的消息传递依赖ROS的消息发布与订阅机制。消息订阅(subsrcibe)等同于数据输入(data input)，而消息发布(publish)等同于数据输出(data output)。
 

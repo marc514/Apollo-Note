@@ -92,7 +92,7 @@ if (!(waypoint.lane->lane().left_boundary().virtual_() ||
 
 这部分代码可以从下面图中理解
 
-![img](https://github.com/YannZyl/Apollo-Note/blob/master/images/planning/correct_1.png)
+![img](../../images/planning/correct_1.png)
 
 **纠正一下，上图中的下标错了，A：靠右行驶， B：靠左行驶**
 
@@ -126,7 +126,7 @@ if (right_type == hdmap::LaneBoundaryType::CURB) {
 
 转换方法如下图，一目了然。
 
-![img](https://github.com/YannZyl/Apollo-Note/blob/master/images/planning/correct_2.png)
+![img](../../images/planning/correct_2.png)
 
 ```c++
 ref_point += left_vec * (left_width - shifted_left_width);
@@ -234,7 +234,7 @@ $$ y' = g_i(s) = b_{i0} + b_{i1}s + b_{i2}s^2 +b_{i3}s^3 + b_{i4}s^4 + b_{i5}s^5
 
 其中i是anchor point所在的knots段，i=1,2,...,n(n=num_spline)
 
-![img](https://github.com/YannZyl/Apollo-Note/blob/master/images/planning/boundary_constraint.png)
+![img](../../images/planning/boundary_constraint.png)
 
 1. 真实点(x,y)F和L轴投影计算
 
